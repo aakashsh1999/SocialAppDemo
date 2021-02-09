@@ -8,7 +8,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int selectIndex = 0;
-  List<String> state = ['Delhi(S)', 'Bihar(S)', 'Madhuani(D)', 'Mumbai(D)'];
   static List<Widget> bottomItems = <Widget>[
     Container(
       child: Center(

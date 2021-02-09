@@ -71,7 +71,7 @@ Widget listItems() {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
-                    child: Column(
+                     child: Column(
                   children: [
                     IconButton(
                         iconSize: 25,
@@ -270,7 +270,7 @@ Widget horizontalList2 = new Container(
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Delhi(S)',
+                  'Delhi (S)',
                   style: GoogleFonts.poppins(
                       fontSize: 16, fontWeight: FontWeight.w600),
                 )
@@ -295,12 +295,11 @@ Widget horizontalList2 = new Container(
                 SizedBox(height: 10),
                 CircleAvatar(
                   radius: 20,
-                  backgroundImage: NetworkImage(
-                      'https://en.wikipedia.org/wiki/Bihar#/media/File:Sunset_view_of_Ganga_Ghat.jpg'),
+                  backgroundImage: NetworkImage('https://www.nativeplanet.com/img/2018/10/golghar-patna-bihar-1540810485.jpg'),
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'Bihar(S)',
+                  'Bihar (S)',
                   style: GoogleFonts.poppins(
                       fontSize: 16, fontWeight: FontWeight.w600),
                 )
@@ -319,7 +318,9 @@ Widget horizontalList2 = new Container(
           width: 100.0,
           height: 100,
           child: Center(
-            child: Column(children: [
+            child: Column(
+              crossAxisAlignment:CrossAxisAlignment.center,
+              children: [
               SizedBox(height: 10),
               CircleAvatar(
                 radius: 20,
@@ -328,7 +329,7 @@ Widget horizontalList2 = new Container(
               ),
               SizedBox(height: 10),
               Text(
-                'Madhubani(D)',
+                'Madhubani\n(D)',
                 style: GoogleFonts.poppins(
                     fontSize: 16, fontWeight: FontWeight.w600),
               )
@@ -352,11 +353,11 @@ Widget horizontalList2 = new Container(
               CircleAvatar(
                 radius: 20,
                 backgroundImage: NetworkImage(
-                    'https://en.wikipedia.org/wiki/Mumbai#/media/File:Bandra_Worli_Sea-Link_(cropped).jpg'),
+                    'https://www.businessinsider.in/thumb/msid-75045928,width-600,resizemode-4,imgsize-57009/Heres-a-map-of-all-of-383-Coronavirus-containment-zones-in-Mumbai.jpg'),
               ),
               SizedBox(height: 10),
               Text(
-                'Mumbai(D)',
+                'Mumbai (D)',
                 style: GoogleFonts.poppins(
                     fontSize: 16, fontWeight: FontWeight.w600),
               )
