@@ -45,7 +45,7 @@ Widget listItems() {
             margin: EdgeInsets.symmetric(horizontal: 10),
             child: Column(
               children: [
-                Container(height: 70, child: Text('बिहार के शिक्षा व्यवस्था के बारे में आप क्या सोचते है?\n' ,style:GoogleFonts.poppins(color:Colors.black, fontWeight:FontWeight.w400, fontSize:20))),
+                Container(height: 70, child: Text('बिहार के शिक्षा व्यवस्था के बारे में आप क्या सोचते है   ?\n' ,style:GoogleFonts.poppins(color:Colors.black, fontWeight:FontWeight.w400, fontSize:20))),
                 Container(
                     child: Row(
                   children: [
